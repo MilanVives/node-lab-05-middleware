@@ -12,7 +12,7 @@ npm test
 npm run dev
 ```
 
-`npm test` runs the same checks as the autograder. Run a single requirement with `npm test -- --test-name-pattern="^R1:"`. The packages `morgan`, `config` and `pug` are already in `package.json`.
+`npm test` runs the same checks as the autograder. Run a single requirement with `node --test --test-name-pattern="^R1:" "test/**/*.test.js"`. The packages `morgan`, `config` and `pug` are already in `package.json`.
 
 ## Requirements
 
